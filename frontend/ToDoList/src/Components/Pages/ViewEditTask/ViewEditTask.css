@@ -1,0 +1,193 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+body{
+    background-image:url("./bg2.png");
+}
+
+.container{
+    width:500px;
+    margin:50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: rgb(116, 189, 189);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);    
+}
+
+h3{
+    text-align: center;
+    color: #0388b1;
+    margin-bottom: 15px; 
+    background: #ffffff;
+}
+
+h5{
+    text-align: center;
+    background: #ffffff;
+}
+
+.add-task{
+    display: flex;    
+    gap: 10px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.add-task input{
+    flex:1;    
+    font-size: 14px;
+    font-weight: bold;
+    border-color: rgb(162, 220, 238);
+    background: #ffffff;
+}
+
+.add-task button{
+    padding: 2px 2px;
+    background: rgba(148, 118, 141, 0.747);
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;    
+}
+
+.add-task button:hover{
+    background: rgb(129, 84, 119);
+}
+
+label{
+    background: #ffffff;
+    font-weight: bold;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 2px;
+}
+
+.task-text {
+    margin-left: 15px;
+}
+
+input[type="checkbox"] {
+  accent-color: rgb(90, 152, 233);
+}
+
+.edit-icon,
+.delete-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  margin-left: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edit-icon {
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+
+.edit-icon:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.delete-icon {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.delete-icon:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.save-btn{
+    margin-left: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background:  rgba(0, 88, 160, 0.795);
+    color: white;
+}
+
+.save-btn:hover{
+    background:   rgb(0, 88, 160);
+}
+
+.cancel-btn{
+    margin-left: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background:  rgba(220, 20, 60, 0.753);
+    color: white;
+}
+
+.cancel-btn:hover{
+    background: crimson;
+}
+
+/* .edit-btn, .delete-btn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.edit-btn { color: #5897f7; }
+.delete-btn { color: #dc3545; }
+
+.edit-btn:hover { color: #084298; }
+.delete-btn:hover { color: #a71d2a; } */
+
+
+/* .edit-btn {
+    margin-left: 5px;
+    padding: 4px 6px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background:  rgba(220, 20, 60, 0.747);
+    color: white;
+}
+
+.delete-btn {
+    margin-left: 5px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background:  rgba(220, 20, 60, 0.747);
+    color: white;
+}
+
+.edit-btn:hover {
+    background: crimson;
+}
+
+.delete-btn:hover {
+    background: crimson; 
+} */
