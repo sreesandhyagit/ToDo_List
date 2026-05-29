@@ -1,0 +1,52 @@
+# =========================
+# Python / Django
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django database
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Logs
+*.log
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# Node / React / Vite
+# =========================
+
+node_modules/
+
+# Production build
+dist/
+
+# npm logs
+npm-debug.log*
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
